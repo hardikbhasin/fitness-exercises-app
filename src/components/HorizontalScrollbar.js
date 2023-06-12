@@ -10,7 +10,9 @@ const LeftArrow = () => {
     return (
         <Typography onClick={() => scrollPrev()} className="right-arrow">
             <img src={LeftArrowIcon} alt="right-arrow" />
+           
         </Typography>
+
     );
 };
 
